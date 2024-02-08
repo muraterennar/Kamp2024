@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1OhDPu13WMbbN3Ty+MWRaMC1ePJJq8HhEAaV8Q8VasSgmpWfoBsKWF/U5rGnjdfjFtMBbbfzWcq9VLFqsq57rQ==",
+  "success": true,
+  "projectFilePath": "/Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Workaround/Workaround.csproj",
+  "expectedPackageFiles": [
+    "/Users/muraterennar/.nuget/packages/google.protobuf/3.9.1/google.protobuf.3.9.1.nupkg.sha512",
+    "/Users/muraterennar/.nuget/packages/grpc.aspnetcore.server/2.23.2/grpc.aspnetcore.server.2.23.2.nupkg.sha512",
+    "/Users/muraterennar/.nuget/packages/grpc.core.api/2.23.0/grpc.core.api.2.23.0.nupkg.sha512",
+    "/Users/muraterennar/.nuget/packages/grpc.net.common/2.23.2/grpc.net.common.2.23.2.nupkg.sha512",
+    "/Users/muraterennar/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/muraterennar/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
