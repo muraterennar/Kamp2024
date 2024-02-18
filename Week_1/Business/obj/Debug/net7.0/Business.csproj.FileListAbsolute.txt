@@ -8,7 +8,8 @@
 /Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/Business.AssemblyInfoInputs.cache
 /Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/Business.AssemblyInfo.cs
 /Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/Business.csproj.CoreCompileInputs.cache
-/Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/Business.csproj.CopyComplete
+/Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/Business.sourcelink.json
+/Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/Business.csproj.Up2Date
 /Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/Business.dll
 /Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/refint/Business.dll
 /Users/muraterennar/Documents/projects/Backend/C#/Kamp2024/Week_1/Business/obj/Debug/net7.0/Business.pdb

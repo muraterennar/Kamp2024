@@ -8,12 +8,81 @@
     ".NETCoreApp,Version=v7.0": {
       "Business/1.0.0": {
         "dependencies": {
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "Google.Protobuf": "3.9.1",
+          "Grpc.AspNetCore.Server": "2.23.2",
+          "Grpc.Tools": "2.23.0",
+          "Microsoft.Extensions.ApiDescription.Client": "3.0.0",
+          "NSwag.ApiDescription.Client": "13.0.5",
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "Business.dll": {}
         }
       },
+      "Google.Protobuf/3.9.1": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.9.1.0",
+            "fileVersion": "3.9.1.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore.Server/2.23.2": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.23.0",
+          "Grpc.Net.Common": "2.23.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Grpc.AspNetCore.Server.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.23.2.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.23.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.23.2": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.23.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.23.2.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.23.0": {},
+      "Microsoft.Extensions.ApiDescription.Client/3.0.0": {},
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "NSwag.ApiDescription.Client/13.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Client": "3.0.0",
+          "NSwag.MSBuild": "13.0.5"
+        }
+      },
+      "NSwag.MSBuild/13.0.5": {},
+      "System.Memory/4.5.3": {},
       "Entities/1.0.0": {
         "runtime": {
           "Entities.dll": {}
@@ -26,6 +95,76 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Google.Protobuf/3.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MV9xJkpm2Jbe30XGwyPH4Xn0LwutWn6UEoLo2djfG2ouK2cBVrlcP4sJPfLrRVFzRutmGHoWUHdHFsq1qiRV5A==",
+      "path": "google.protobuf/3.9.1",
+      "hashPath": "google.protobuf.3.9.1.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server/2.23.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y70K5AeBfFqP0C0V6XWomaCEgOXrJNkLhMzwPllTvdYLcS16iSHSBSlJx2AAR4qABs29Pd7b/p+Oxdk+Qy2syQ==",
+      "path": "grpc.aspnetcore.server/2.23.2",
+      "hashPath": "grpc.aspnetcore.server.2.23.2.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PBu5HmZqkg5t13HA3ZKZi3tjHQI7MSpxPnL1+5c9ewgGT6Eg0eXrK+Klf/FPXzl4sz15aFQv7gSjvd8h07PK3Q==",
+      "path": "grpc.core.api/2.23.0",
+      "hashPath": "grpc.core.api.2.23.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.23.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3CRpqLzQEcZ+t/jBiPiOnZvtCwMDqb7Ea8tyaSXakuK3xudZgtqAWg1rqPToUfOQyBfOMm4+1EF2dJvngFLQIg==",
+      "path": "grpc.net.common/2.23.2",
+      "hashPath": "grpc.net.common.2.23.2.nupkg.sha512"
+    },
+    "Grpc.Tools/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nddxpcbrypxzP2ZHY50FuiTBVMdDPnZ6AtsrOn4JXOVLtwCg8UVynOFr1yBkCj9Ki5lTsfK1toc8glhO3OriVg==",
+      "path": "grpc.tools/2.23.0",
+      "hashPath": "grpc.tools.2.23.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ApiDescription.Client/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EpGGEoBelJtt4IN32O02D+Lb4DjSFB1GUoItLa8GDzM4x/cqpCAKn5tRb6Fn7U3/rGlWjfLMGXW/t9zvYmPQtA==",
+      "path": "microsoft.extensions.apidescription.client/3.0.0",
+      "hashPath": "microsoft.extensions.apidescription.client.3.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "NSwag.ApiDescription.Client/13.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zu5uTfiKtJiuzXHtgCmForzIkd2WvrFhcrg6yTiTRKPYo3az/Pl4JF+F5NmZtZ+3gIIrsf5fabJbbZ8L5BymIg==",
+      "path": "nswag.apidescription.client/13.0.5",
+      "hashPath": "nswag.apidescription.client.13.0.5.nupkg.sha512"
+    },
+    "NSwag.MSBuild/13.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CjLWwC2p+HRGxmSAJY9xtOMMO9YczTtIiGVEPckrklXjc3dJ7OAT/caKHjE+9fYx1an+9qeDao2qxmMpCkGTXQ==",
+      "path": "nswag.msbuild/13.0.5",
+      "hashPath": "nswag.msbuild.13.0.5.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
     "Entities/1.0.0": {
       "type": "project",
